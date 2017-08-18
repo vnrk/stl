@@ -1,8 +1,8 @@
-Sort in C++ Standard Template Library (STL)
-Sorting is one of the most basic functions applied on data.
-The prototype for sort is :
-
-sort(startaddress, endaddress)
+//Sort in C++ Standard Template Library (STL)
+//Sorting is one of the most basic functions applied on data.
+//The prototype for sort is :
+//
+//sort(startaddress, endaddress)
 #include <iostream>
 #include <algorithm>
  
