@@ -28,6 +28,11 @@ int main() {
 		}
 	);
 	
+	//for (auto i = v.begin(); i < v.end(); ++i)
+	//	cout << *i << endl;
+
+	v.erase(remove_if(v.begin(), v.end(), [](int e) {return e % 2 == 1; }), v.end());
+
 	for (auto i = v.begin(); i < v.end(); ++i)
 		cout << *i << endl;
 
